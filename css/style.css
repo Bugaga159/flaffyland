@@ -1,0 +1,159 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background: #eef5f4;
+}
+.content{
+    margin-top: 35px;
+}
+.content-well{
+    margin-top: 10px;
+}
+
+.main{
+	width: 100%;
+	background: #6f6ba7;
+}
+div.info1 {
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.info1 >div{
+    margin-top: 10px;
+}
+
+.reg_head_btn{
+    width: 100%;
+    margin-top: 2px;
+}
+
+
+.login_head_btn{
+    width: 100%;
+    margin-top: 2px;
+}
+.exit_head_btn{
+    width: 100%;
+    margin-top: 2px;
+}
+
+.header_logo {
+    background: url(/img/MTI5MDI1MTgxNTI3MjMwNDc0.jpg) no-repeat;
+    background-size: 50px;
+    width: 47px;
+    height: 40px;
+
+}
+.well-my-foto{
+    margin-top: 20px;
+    background: #ffffff;
+}
+.well-my-foto-in{
+    margin: 5px;
+}
+
+.my-foto{
+    height: 140px;
+    width: 140px;
+
+}
+.nav_btn{
+    list-style-type: none;
+}
+
+.info h1{
+	color: red;
+	padding-top: 3%;
+    text-align: center;
+}
+.info p{
+    color: #000000;
+}
+
+
+.systemFieldText {
+    font-size: 16px;
+}
+.registration_wrapper {
+	width: 100%;
+	text-align: center;
+}
+
+.registration {
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+}
+
+.systemBtn {
+	width: 100%;
+}
+.nav-well li{
+    list-style-type: none;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.user_menu li {
+	list-style-type: none;
+	width: 100%;
+}
+
+.user_menu_text {
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.user_menu_link {
+	width: 100%;
+	display: inline-block;
+}
+
+.pets_avatars_wrapper {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 35px;
+    right: 27px;
+}
+
+.pet_avatar_wrapper {
+    display: inline;
+}
+
+.pet_avatar {
+    float: right;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    background-size: cover;
+    margin-right: -10px;
+}
+.name_master{
+    text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #5c82a7;
+  text-align: center;
+}
+
+.footer_link{
+	margin-right: 5px;
+    color: white;
+}
+
