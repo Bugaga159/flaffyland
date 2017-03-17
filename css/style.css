@@ -12,6 +12,7 @@ body {
 .content-well{
     margin-top: 10px;
     background-color: #ffffff;
+    border-radius: 10px;
 }
 
 .main{
@@ -133,6 +134,10 @@ div.info1 {
 }
 .post_author{
     padding-left: 10px;
+}
+.post_text{
+    padding: 15px;
+
 }
 .post_data{
     padding-left: 10px;
