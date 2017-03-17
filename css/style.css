@@ -6,6 +6,9 @@ body {
     margin-bottom: 60px;
     background: #f0f9f7;
 }
+.img-responsive{
+    border-radius: 10px;
+}
 .bas-well{
     margin-top: 20px;
     padding-top: 10px;
@@ -50,10 +53,10 @@ div.info1 {
 }
 
 .header_logo {
-    background: url(/img/MTI5MDI1MTgxNTI3MjMwNDc0.jpg) no-repeat;
+    background: url(/img/amblem.png) no-repeat;
     background-size: 50px;
-    width: 47px;
-    height: 40px;
+    width: 50px;
+    height: 47px;
 
 }
 .well-my-foto{

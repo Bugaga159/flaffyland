@@ -19,7 +19,7 @@
 			</div>
 			<div class="col-md-2">
 				<div class="profile_photo">
-					<img class="img-responsive" src="/img/avatars/no_avatar.gif" alt="">
+					<img class="img-responsive" src="/img/avatars/ava-i.jpg" alt="">
 					<div class="pets_avatars_wrapper">
 						<div class="pet_avatar_wrapper">
 							<a href="#">
@@ -90,7 +90,7 @@
                     </div>
                     <div class="bas-well">
                         <div>
-                            <div class=""><a href=""><img  class="img-circle post_image_well" src="img/avatars/no_avatar.gif" alt=""/></a></div>
+                            <div class=""><a href=""><img  class="img-circle post_image_well" src="img/avatars/ava-i.jpg" alt=""/></a></div>
                             <div>
                                 <div>
                                     <a href="" class="post_author">Панин Андрей</a>
@@ -127,7 +127,7 @@
                     </div>
                     <div class="bas-well">
                         <div>
-                            <div class=""><a href=""><img  class="img-circle post_image_well" src="img/avatars/no_avatar.gif" alt=""/></a></div>
+                            <div class=""><a href=""><img  class="img-circle post_image_well" src="img/avatars/ava-i.jpg" alt=""/></a></div>
                             <div>
                                 <div>
                                     <a href="" class="post_author">Панин Андрей</a>
@@ -163,7 +163,7 @@
                         </div>
                         <div class="bas-well">
                             <div>
-                                <div class=""><a href=""><img  class="img-circle post_image_well" src="img/avatars/no_avatar.gif" alt=""/></a></div>
+                                <div class=""><a href=""><img  class="img-circle post_image_well" src="img/avatars/ava-i.jpg" alt=""/></a></div>
                                 <div>
                                     <div>
                                         <a href="" class="post_author">Панин Андрей</a>
