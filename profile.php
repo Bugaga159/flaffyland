@@ -87,7 +87,16 @@
                     </div>
                     <div class="bas-well">
                         <div>
-                            <div><a href=""><img  class="img-circle" src="img/avatars/no_avatar.gif" alt=""/></a></div>
+                            <div class=""><a href=""><img  class="img-circle post_image_well" src="img/avatars/no_avatar.gif" alt=""/></a></div>
+                            <div>
+                                <div>
+                                    <a href="" class="post_author">Панин Андрей</a>
+                                </div>
+                                <div>
+                                    <a href="" class="post_data">17 марта 2017</a>
+                                </div>
+                            </div>
+
                         </div>
                         <div></div>
                     </div>

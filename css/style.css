@@ -91,9 +91,19 @@ div.info1 {
     display: inline-block;
     text-align: left;
 }
-.img-circle{
+.post_author{
+    line-height: 16px;
+    padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.post_image_well{
     width: 50px;
     height: 50px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    padding-top: 8px;
 }
 .systemBtn {
 	width: 100%;
@@ -121,7 +131,12 @@ div.info1 {
 	width: 100%;
 	display: inline-block;
 }
-
+.post_author{
+    padding-left: 10px;
+}
+.post_data{
+    padding-left: 10px;
+}
 .pets_avatars_wrapper {
     position: absolute;
     bottom: 0;
