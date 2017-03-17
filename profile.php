@@ -46,7 +46,10 @@
 			<div class="col-md-7">
                 <div class="container info1">
                     <div>
-                        <div><a href="#"">Статус</a></div>
+                        <div>
+                            <a href="#"">Статус</a>
+                            <a href="">Онлайн</a>
+                        </div>
                         <div><a href="#">Панин Андрей</a></div>
                         <div>
                             <a>Город: </a><a>Серпухов</a>

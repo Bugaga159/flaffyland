@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="08015721-45fd-4745-8489-1fd768943ee5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile.php" afterPath="$PROJECT_DIR$/profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="flaffyland.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="08015721-45fd-4745-8489-1fd768943ee5" time="1489745898171" ignored="false" />
     <file path="/style.css" changelist="08015721-45fd-4745-8489-1fd768943ee5" time="1489768908488" ignored="false" />
-    <file path="/profile.php" changelist="08015721-45fd-4745-8489-1fd768943ee5" time="1489768755189" ignored="false" />
+    <file path="/profile.php" changelist="08015721-45fd-4745-8489-1fd768943ee5" time="1489769182918" ignored="false" />
     <file path="/header.php" changelist="08015721-45fd-4745-8489-1fd768943ee5" time="1489742935866" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,10 +36,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.728419">
       <split-first>
         <leaf>
-          <file leaf-file-name="profile.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="profile.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/profile.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="40" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.55674845">
+                <state line="49" column="47" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.8082822">
                   <folding />
                 </state>
               </provider>
@@ -50,7 +49,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="56" column="0" selection-start="819" selection-end="819" vertical-scroll-proportion="0.46860644">
@@ -80,8 +79,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/view_helpers/header.php" />
-        <option value="$PROJECT_DIR$/profile.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/profile.php" />
       </list>
     </option>
   </component>
@@ -445,16 +444,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile.php">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="40" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.55674845">
+        <state line="56" column="0" selection-start="819" selection-end="819" vertical-scroll-proportion="0.46860644">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="819" selection-end="819" vertical-scroll-proportion="0.46860644">
+        <state line="49" column="47" selection-start="2295" selection-end="2295" vertical-scroll-proportion="0.8082822">
           <folding />
         </state>
       </provider>
