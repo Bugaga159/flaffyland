@@ -6,12 +6,17 @@ body {
     margin-bottom: 60px;
     background: #f0f9f7;
 }
+.bas-well{
+    margin-top: 20px;
+    padding-top: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+}
 .content{
     margin-top: 35px;
 }
 .content-well{
     margin-top: 10px;
-    background-color: #ffffff;
     border-radius: 10px;
 }
 
@@ -20,7 +25,6 @@ body {
 	background: #3990dc;
 }
 div.info1 {
-    margin-top: 20px;
     background-color: #ffffff;
     border-radius: 10px;
     height: 100%;
@@ -110,8 +114,9 @@ div.info1 {
 	width: 100%;
 }
 .nav-well{
-    padding-left: 20px;
-    padding-top: 10px;
+    padding: 20px 10px 10px 10px;
+    background: #ffffff;
+    border-radius: 10px;
 }
 .nav-well li{
     list-style-type: none;

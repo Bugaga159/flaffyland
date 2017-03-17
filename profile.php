@@ -157,6 +157,7 @@
                                 voluptatum.
                             </div>
                         </div>
+                        </div>
                         <div class="bas-well">
                             <div>
                                 <div class=""><a href=""><img  class="img-circle post_image_well" src="img/avatars/no_avatar.gif" alt=""/></a></div>
@@ -192,8 +193,11 @@
                                     voluptatum.
                                 </div>
                             </div>
-			</div>
-		</section>
+			            </div>
+
+
+                    </div>
+        </section>
 <?php
 	require_once "view_helpers/footer.php";
 ?>
