@@ -5,13 +5,14 @@ html {
 body {
   /* Margin bottom by footer height */
     margin-bottom: 60px;
-    background: #eef5f4;
+    background: #b9e0f5;
 }
 .content{
     margin-top: 35px;
 }
 .content-well{
     margin-top: 10px;
+    background-color: #ffffff;
 }
 
 .main{
@@ -97,10 +98,7 @@ div.info1 {
 }
 .nav-well li{
     list-style-type: none;
-    position: relative;
-    text-decoration: none;
-    color: black;
-    display: inline-block;
+    color: #000000;
 }
 
 .user_menu li {
