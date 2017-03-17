@@ -78,7 +78,7 @@
                 </div>
                 <div class="content-well">
                     <div class="list-inline nav-well">
-                        <ul>
+                        <ul class="list-inline">
                             <li><a href="#">Мои записи</a></li>
                             <li><a href="#">Записи групп</a></li>
                             <li></li>
@@ -86,8 +86,10 @@
                         </ul>
                     </div>
                     <div class="bas-well">
-
-
+                        <div>
+                            <div><a href=""><img  class="img-circle" src="img/avatars/no_avatar.gif" alt=""/></a></div>
+                        </div>
+                        <div></div>
                     </div>
                 </div>
 
