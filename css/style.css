@@ -6,6 +6,13 @@ body {
     margin-bottom: 60px;
     background: #f0f9f7;
 }
+.friends_wrapper{
+    margin-top: 20px;
+}
+.ava_friend{
+    width: 40px;
+    height: 40px;
+}
 .img-responsive{
     border-radius: 10px;
 }

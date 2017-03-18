@@ -40,7 +40,28 @@
 					<a class="btn btn-default systemBtn" href="#">Редактировать</a>
 				</div>
 				<div class="friends_wrapper">
-					
+                    <div>
+                        <a href="">Друзья</a>
+                        <div class="row">
+                            <div class="list-inline ">
+                                <a class="ava_friend" href=""><img class="ava_friend" src="img/avatars/no_avatar.gif" alt="">Друг</a>
+                                <a class="ava_friend" href=""><img class="ava_friend" src="img/avatars/no_avatar.gif" alt="">Друг</a>
+                                <a class="ava_friend" href=""><img class="ava_friend" src="img/avatars/no_avatar.gif" alt="">Друг</a>
+
+
+                            </div>
+                            <div>
+                                <a class="ava_friend" href=""><img class="ava_friend" src="img/avatars/no_avatar.gif" alt="">Друг</a>
+                                <a class="ava_friend" href=""><img class="ava_friend" src="img/avatars/no_avatar.gif" alt="">Друг</a>
+                                <a class="ava_friend" href=""><img class="ava_friend" src="img/avatars/no_avatar.gif" alt="">Друг</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div>
+
+                    </div>
 				</div>
 			</div>
 			<div class="col-md-7">
