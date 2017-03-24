@@ -189,6 +189,16 @@ div.info1 {
 .name_master{
     text-align: center;
 }
+.name-friends{
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.foto_friends_well{
+    margin-top: 15px;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+}
 .foto_friends{
     width: 35px;
     height: 35px;

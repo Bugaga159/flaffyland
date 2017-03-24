@@ -26,55 +26,68 @@
                 <div>
                     <a class="btn btn-default systemBtn" href="#">Редактировать</a>
                 </div>
-                <div class="row">
-                    <a href="#">Друзья</a>
+                <div class="foto_friends_well">
+                    <div class="name-friends"><a href="#">Друзья</a></div>
+                    <div>
+                        <ul class="list-inline">
+                            <li>
+                                <div>
+                                    <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                                    <div>
+                                        <a href="#">друг</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                                    <div>
+                                        <a href="#">друг</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                                    <div>
+                                        <a href="#">друг</a>
+                                    </div>
+                                </div>
+                            </li>
 
-                    <div class="row">
-                        <div class="list-inline">
-                            <div>
-                                <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
-                                <div>
-                                    <a href="#">друг</a>
-                                </div>
-                            </div>
-                            <div>
-                                <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
-                                <div>
-                                    <a href="#">друг</a>
-                                </div>
-                            </div>
-                            <div>
-                                <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
-                                <div>
-                                    <a href="#">друг</a>
-                                </div>
-                            </div>
-
-                        </div>
+                        </ul>
                     </div>
-                    <div class="row">
-                        <div class="list-inline">
-                            <div>
-                                <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                    <div>
+                        <ul class="list-inline">
+                            <li>
                                 <div>
-                                    <a href="#">друг</a>
+                                    <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                                    <div>
+                                        <a href="#">друг</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                            </li>
+                            <li>
                                 <div>
-                                    <a href="#">друг</a>
+                                    <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                                    <div>
+                                        <a href="#">друг</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                            </li>
+                            <li>
                                 <div>
-                                    <a href="#">друг</a>
+                                    <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                                    <div>
+                                        <a href="#">друг</a>
+                                    </div>
                                 </div>
-                            </div>
+                            </li>
 
-                        </div>
+                        </ul>
                     </div>
+
+
 
                 </div>
             </div>
