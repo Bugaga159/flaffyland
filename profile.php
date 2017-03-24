@@ -17,7 +17,7 @@
 					<li><a class=" " href="#"><div class="menu_icon glyphicon glyphicon-globe"></div><p class="user_menu_text" href="#">Группы</p></a></li>
 				</ul>
 			</div>
-			<div class="col-md-2 profile_photo">
+			<div class="col-md-3 profile_photo">
 
 					<img class="img-responsive" src="/img/avatars/ava-i.jpg" alt="">
 
@@ -28,9 +28,9 @@
                         <div>
                             <ul class="list-inline">
                                 <li>
-                                        <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                                        <a href="profile.php"><img class="foto_friends" src="img/avatars/ava-i.jpg" alt=""></a>
                                         <div>
-                                            <a href="#">друг</a>
+                                            <a href="profile.php">Андрей</a>
                                         </div>
                                 </li>
                                 <li>
@@ -81,7 +81,7 @@
 
 
 
-			<div class="col-md-7">
+			<div class="col-md-6">
                 <div class="container info1">
                     <div>
                         <div>
