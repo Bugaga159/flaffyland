@@ -17,7 +17,7 @@ body {
     height: 40px;
 }
 .img-responsive{
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .bas-well{
     margin-top: 20px;
@@ -100,11 +100,13 @@ div.info1 {
     font-size: 16px;
 }
 .registration_wrapper {
+    margin-top: 35px;
 	width: 100%;
 	text-align: center;
 }
 
 .registration {
+
     width: 300px;
     display: inline-block;
     text-align: left;
@@ -162,8 +164,8 @@ div.info1 {
 }
 .pets_avatars_wrapper {
     position: absolute;
-    bottom: 0;
-    margin-bottom: 35px;
+   /* bottom: 0;*/
+  margin-bottom: 60px;
     right: 27px;
 }
 
@@ -179,11 +181,18 @@ div.info1 {
     border: 3px solid #fff;
     background-size: cover;
     margin-right: -10px;
+
+}
+.profile_photo{
+    max-height: 300px;
 }
 .name_master{
     text-align: center;
 }
-
+.foto_friends{
+    width: 35px;
+    height: 35px;
+}
 footer {
   position: absolute;
   bottom: 0;

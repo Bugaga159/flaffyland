@@ -20,50 +20,68 @@
 			<div class="col-md-2">
 				<div class="profile_photo">
 					<img class="img-responsive" src="/img/avatars/ava-i.jpg" alt="">
-					<div class="pets_avatars_wrapper">
-						<div class="pet_avatar_wrapper">
-							<a href="#">
-								<img class="img-responsive pet_avatar" src="/img/pets_avatar/1.jpg" alt="">
-							</a>
-						</div>
-						<div class="pet_avatar_wrapper">
-							<a href="#">
-								<img class="img-responsive pet_avatar" src="/img/pets_avatar/2.jpg" alt="">
-							</a>
-						</div>
-						<div class="pet_avatar_wrapper">
-							<a href="#">
-								<img class="img-responsive pet_avatar" src="/img/pets_avatar/3.jpg" alt="">
-							</a>
-						</div>
-					</div>
-					<a class="btn btn-default systemBtn" href="#">Редактировать</a>
-				</div>
-				<div class="friends_wrapper">
-                    <div>
-                        <a href="">Друзья</a>
-                        <div class="row">
-                            <div class="list-inline ">
-                                <a class="ava_friend" href=""><img class="ava_friend" src="img/avatars/no_avatar.gif" alt="">Друг</a>
-                                <a class="ava_friend" href=""><img class="ava_friend" src="img/avatars/no_avatar.gif" alt="">Друг</a>
-                                <a class="ava_friend" href=""><img class="ava_friend" src="img/avatars/no_avatar.gif" alt="">Друг</a>
 
 
+                </div>
+                <div>
+                    <a class="btn btn-default systemBtn" href="#">Редактировать</a>
+                </div>
+                <div class="row">
+                    <a href="#">Друзья</a>
+
+                    <div class="row">
+                        <div class="list-inline">
+                            <div>
+                                <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                                <div>
+                                    <a href="#">друг</a>
+                                </div>
                             </div>
                             <div>
-                                <a class="ava_friend" href=""><img class="ava_friend" src="img/avatars/no_avatar.gif" alt="">Друг</a>
-                                <a class="ava_friend" href=""><img class="ava_friend" src="img/avatars/no_avatar.gif" alt="">Друг</a>
-                                <a class="ava_friend" href=""><img class="ava_friend" src="img/avatars/no_avatar.gif" alt="">Друг</a>
-
+                                <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                                <div>
+                                    <a href="#">друг</a>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                                <div>
+                                    <a href="#">друг</a>
+                                </div>
                             </div>
 
                         </div>
                     </div>
-                    <div>
+                    <div class="row">
+                        <div class="list-inline">
+                            <div>
+                                <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                                <div>
+                                    <a href="#">друг</a>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                                <div>
+                                    <a href="#">друг</a>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                                <div>
+                                    <a href="#">друг</a>
+                                </div>
+                            </div>
 
+                        </div>
                     </div>
-				</div>
-			</div>
+
+                </div>
+            </div>
+
+
+
+
 			<div class="col-md-7">
                 <div class="container info1">
                     <div>
