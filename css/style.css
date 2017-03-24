@@ -111,6 +111,14 @@ div.info1 {
     display: inline-block;
     text-align: left;
 }
+.foto-messeges-name{
+    line-height: 16px;
+    padding-left: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 19px;
+
+}
 .post_author{
     line-height: 16px;
     padding-right: 20px;
@@ -191,12 +199,35 @@ div.info1 {
     margin-top: 2px;
     margin-bottom: 10px;
 }
+.mess-post{
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 15px;
+    margin-top: 15px;
+    max-width: 750px;
+}
+.search-mess{
+    margin-top: 15px;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+
+}
 .foto_friends_well{
+
     margin-top: 15px;
     background: #ffffff;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
+}
+.foto-messeges{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    background-size: cover;
+
 }
 .foto_friends{
     width: 35px;
