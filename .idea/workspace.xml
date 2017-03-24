@@ -34,7 +34,7 @@
             <entry file="file://$PROJECT_DIR$/profile.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="425">
-                  <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+                  <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -47,8 +47,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="347">
-                  <caret line="198" column="24" lean-forward="true" selection-start-line="198" selection-start-column="24" selection-end-line="198" selection-end-column="24" />
+                <state relative-caret-position="126">
+                  <caret line="142" column="16" lean-forward="false" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -200,7 +200,7 @@
       <workItem from="1489840339593" duration="186000" />
       <workItem from="1489840903903" duration="916000" />
       <workItem from="1489849960335" duration="2396000" />
-      <workItem from="1490386348937" duration="6035000" />
+      <workItem from="1490386348937" duration="7472000" />
     </task>
     <task id="LOCAL-00001" summary="php">
       <created>1489741802400</created>
@@ -227,7 +227,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9533000" />
+    <option name="totallyTimeSpent" value="10970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="874" extended-state="0" />
@@ -587,15 +587,15 @@
     <entry file="file://$PROJECT_DIR$/profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+          <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="198" column="24" lean-forward="true" selection-start-line="198" selection-start-column="24" selection-end-line="198" selection-end-column="24" />
+        <state relative-caret-position="126">
+          <caret line="142" column="16" lean-forward="false" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
           <folding />
         </state>
       </provider>
