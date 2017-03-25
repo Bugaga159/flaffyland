@@ -217,10 +217,18 @@ div.info1 {
     margin-top: 15px;
     max-width: 650px;
 }
+.friends-list-search{
+    padding: 5px 0 0 5px;
+}
 .search-mess{
     background: #ffffff;
     border-radius: 8px;
     padding: 10px;
+
+}
+.friends-list{
+    background: #ffffff;
+    border-radius: 5px;
 
 }
 .foto_friends_well{

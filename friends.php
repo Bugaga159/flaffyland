@@ -23,6 +23,32 @@
 
 
 
+            <!-----------------------------------Друзья--------------------------------->
+
+            <div class="col-md-7 friends-list">
+                <div class="">
+                    <div class="col-md-8 friends-list-search">
+                        <ul class="list-inline">
+                            <li><a href="">Все друзья</a></li>
+                            <li><a href="">Друзья онлайн</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-default">Поиск по друзьям</button>
+                    </div>
+
+
+
+
+                </div>
+                <div>
+
+                </div>
+            </div>
+
+
+
+
 
 
 
