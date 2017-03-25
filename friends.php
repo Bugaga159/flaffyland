@@ -25,25 +25,167 @@
 
             <!-----------------------------------Друзья--------------------------------->
 
-            <div class="col-md-7 friends-list">
-                <div class="">
+            <div class="col-md-7">
+                <div class="friends-list">
                     <div class="col-md-8 friends-list-search">
                         <ul class="list-inline">
                             <li><a href="">Все друзья</a></li>
                             <li><a href="">Друзья онлайн</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div>
                         <button type="submit" class="btn btn-default">Поиск по друзьям</button>
                     </div>
-
-
-
-
                 </div>
+
+
                 <div>
+                    <div>
+                        <div class="friends-list-gr">
+                            <div class="col-md-8">
+                                <a href="">
+                                    <img  class="foto-friend-list" src="img/avatars/ava-i.jpg" alt="">
+                                    <span  href="#" class="foto-messeges-name">Панин Андрей</span>
+                                </a>
+                            </div>
+                            <div>
+                                <span style="text-align: right">Онлайн</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="friends-list-gr">
+                            <div class="col-md-8">
+                                <a href="">
+                                    <img  class="foto-friend-list" src="img/avatars/ava-i.jpg" alt="">
+                                    <span  href="#" class="foto-messeges-name">Панин Андрей</span>
+                                </a>
+                            </div>
+                            <div>
+                                <span style="text-align: right">Онлайн</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="friends-list-gr">
+                            <div class="col-md-8">
+                                <a href="">
+                                    <img  class="foto-friend-list" src="img/avatars/ava-i.jpg" alt="">
+                                    <span  href="#" class="foto-messeges-name">Панин Андрей</span>
+                                </a>
+                            </div>
+                            <div>
+                                <span style="text-align: right">Онлайн</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="friends-list-gr">
+                            <div class="col-md-8">
+                                <a href="">
+                                    <img  class="foto-friend-list" src="img/avatars/ava-i.jpg" alt="">
+                                    <span  href="#" class="foto-messeges-name">Панин Андрей</span>
+                                </a>
+                            </div>
+                            <div>
+                                <span style="text-align: right">Онлайн</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="friends-list-gr">
+                            <div class="col-md-8">
+                                <a href="">
+                                    <img  class="foto-friend-list" src="img/avatars/ava-i.jpg" alt="">
+                                    <span  href="#" class="foto-messeges-name">Панин Андрей</span>
+                                </a>
+                            </div>
+                            <div>
+                                <span style="text-align: right">Онлайн</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="friends-list-gr">
+                            <div class="col-md-8">
+                                <a href="">
+                                    <img  class="foto-friend-list" src="img/avatars/ava-i.jpg" alt="">
+                                    <span  href="#" class="foto-messeges-name">Панин Андрей</span>
+                                </a>
+                            </div>
+                            <div>
+                                <span style="text-align: right">Онлайн</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="friends-list-gr">
+                            <div class="col-md-8">
+                                <a href="">
+                                    <img  class="foto-friend-list" src="img/avatars/ava-i.jpg" alt="">
+                                    <span  href="#" class="foto-messeges-name">Панин Андрей</span>
+                                </a>
+                            </div>
+                            <div>
+                                <span style="text-align: right">Онлайн</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="friends-list-gr">
+                            <div class="col-md-8">
+                                <a href="">
+                                    <img  class="foto-friend-list" src="img/avatars/ava-i.jpg" alt="">
+                                    <span  href="#" class="foto-messeges-name">Панин Андрей</span>
+                                </a>
+                            </div>
+                            <div>
+                                <span style="text-align: right">Онлайн</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="friends-list-gr">
+                            <div class="col-md-8">
+                                <a href="">
+                                    <img  class="foto-friend-list" src="img/avatars/ava-i.jpg" alt="">
+                                    <span  href="#" class="foto-messeges-name">Панин Андрей</span>
+                                </a>
+                            </div>
+                            <div>
+                                <span style="text-align: right">Онлайн</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="friends-list-gr">
+                            <div class="col-md-8">
+                                <a href="">
+                                    <img  class="foto-friend-list" src="img/avatars/ava-i.jpg" alt="">
+                                    <span  href="#" class="foto-messeges-name">Панин Андрей</span>
+                                </a>
+                            </div>
+                            <div>
+                                <span style="text-align: right">Онлайн</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="friends-list-gr">
+                            <div class="col-md-8">
+                                <a href="">
+                                    <img  class="foto-friend-list" src="img/avatars/ava-i.jpg" alt="">
+                                    <span  href="#" class="foto-messeges-name">Панин Андрей</span>
+                                </a>
+                            </div>
+                            <div>
+                                <span style="text-align: right">Онлайн</span>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
+
             </div>
 
 

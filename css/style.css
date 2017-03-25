@@ -119,6 +119,13 @@ div.info1 {
     font-size: 19px;
 
 }
+.foto-friend-name{
+    line-height: 16px;
+    padding-left: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
 .post_author{
     line-height: 16px;
     padding-right: 20px;
@@ -210,6 +217,13 @@ div.info1 {
     background: #ffffff;
     border-radius: 8px;
 }
+.friends-list-gr{
+    height: 100%;
+    padding: 10px 0 50px 10px;
+    background: #ffffff;
+    border-radius: 8px;
+    margin-top: 10px;
+}
 .mess-post{
     padding: 10px;
     background: #ffffff;
@@ -229,6 +243,7 @@ div.info1 {
 .friends-list{
     background: #ffffff;
     border-radius: 5px;
+    padding: 5px;
 
 }
 .foto_friends_well{
@@ -239,6 +254,13 @@ div.info1 {
     padding: 20px;
     font-size: 14px;
     text-align: center;
+}
+.foto-friend-list{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    background-size: cover;
 }
 .foto-messeges{
     width: 50px;
