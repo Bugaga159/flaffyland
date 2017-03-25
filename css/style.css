@@ -113,7 +113,7 @@ div.info1 {
 }
 .foto-messeges-name{
     line-height: 16px;
-    padding-left: 20px;
+    padding-left: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 19px;
@@ -214,7 +214,7 @@ div.info1 {
     background: #ffffff;
     border-radius: 15px;
     padding: 10px;
-
+    max-width: 750px;
 }
 .foto_friends_well{
 
