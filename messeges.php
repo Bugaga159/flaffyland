@@ -24,7 +24,7 @@
 
         <!---------------------------------     Сообщение -------------------------------------->
 
-        <div class="col-md-10">
+        <div class="col-md-7">
 
             <div>
                 <a href="#" class="search-mess"><div class="menu_icon glyphicon glyphicon-search"></div>Поиск переписки</a>
@@ -154,6 +154,26 @@
 
         </div>
 
+        <!--------------------------------- конфиг. сообщение ------------------------------------>
+
+        <div class="col-md-2">
+            <div class="mess-status">
+                <div class="mess-status-conf"><a href="#">Все сообщения</a></div>
+                <div class="mess-status-conf"><a href="#">Непрочитанные</a></div>
+                <div class="mess-status-conf"><a href="#">Важные сообщения</a></div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
 
 
 

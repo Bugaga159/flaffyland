@@ -191,7 +191,10 @@ div.info1 {
     margin-right: -10px;
 
 }
-
+.mess-status-conf{
+    padding-top: 5px;
+    font-size: 14.5px;
+}
 .name_master{
     text-align: center;
 }
@@ -202,19 +205,23 @@ div.info1 {
     font-size: 16px;
     padding-bottom: 5px;
 }
+.mess-status{
+    padding: 10px 0 10px 10px;
+    background: #ffffff;
+    border-radius: 8px;
+}
 .mess-post{
     padding: 10px;
     background: #ffffff;
-    border-radius: 15px;
+    border-radius: 8px;
     margin-top: 15px;
-    max-width: 750px;
+    max-width: 650px;
 }
 .search-mess{
     margin-top: 15px;
     background: #ffffff;
-    border-radius: 15px;
+    border-radius: 8px;
     padding: 10px;
-    max-width: 750px;
 }
 .foto_friends_well{
 
