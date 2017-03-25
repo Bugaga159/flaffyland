@@ -24,4 +24,3 @@ if (!$link) {
 echo "Вы подключились к MySQL " .  DATABASE_NAME;
 echo '</br>';
 echo "Host information: " . mysqli_get_host_info($link) . PHP_EOL;
-
