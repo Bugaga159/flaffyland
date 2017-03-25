@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08015721-45fd-4745-8489-1fd768943ee5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messeges.php" afterPath="$PROJECT_DIR$/messeges.php" />
     </list>
@@ -43,8 +44,8 @@
           <file leaf-file-name="messeges.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/messeges.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="292">
-                  <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="41" />
+                <state relative-caret-position="476">
+                  <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -58,7 +59,7 @@
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="296">
-                  <caret line="223" column="18" lean-forward="false" selection-start-line="223" selection-start-column="18" selection-end-line="223" selection-end-column="18" />
+                  <caret line="223" column="4" lean-forward="false" selection-start-line="223" selection-start-column="4" selection-end-line="223" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -72,6 +73,7 @@
     <findStrings>
       <find>about_company</find>
       <find>post_author</find>
+      <find>search-mess</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -262,7 +264,7 @@
       <workItem from="1489840339593" duration="186000" />
       <workItem from="1489840903903" duration="916000" />
       <workItem from="1489849960335" duration="2396000" />
-      <workItem from="1490386348937" duration="13480000" />
+      <workItem from="1490386348937" duration="14665000" />
     </task>
     <task id="LOCAL-00001" summary="php">
       <created>1489741802400</created>
@@ -289,7 +291,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16978000" />
+    <option name="totallyTimeSpent" value="18163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="874" extended-state="0" />
@@ -656,8 +658,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/messeges.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="476">
+          <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -665,7 +667,7 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
-          <caret line="223" column="18" lean-forward="false" selection-start-line="223" selection-start-column="18" selection-end-line="223" selection-end-column="18" />
+          <caret line="223" column="4" lean-forward="false" selection-start-line="223" selection-start-column="4" selection-end-line="223" selection-end-column="4" />
           <folding />
         </state>
       </provider>

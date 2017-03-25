@@ -26,8 +26,13 @@
 
         <div class="col-md-7">
 
-            <div>
-                <a href="#" class="search-mess"><div class="menu_icon glyphicon glyphicon-search"></div>Поиск переписки</a>
+            <div class="search-mess">
+                <form class="form-inline" action="" role="form">
+                    <div class="col-sm-8"><input type="text" class="form-control" id="" placeholder="Введите поиск"></div>
+                    <button type="submit" class="btn btn-default">Поиск по сообщениям</button>
+
+                </form>
+
             </div>
 
             <div>
