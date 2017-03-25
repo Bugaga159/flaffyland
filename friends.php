@@ -57,8 +57,8 @@
                         <div class="friends-list-gr">
                             <div class="col-md-8">
                                 <a href="">
-                                    <img  class="foto-friend-list" src="img/avatars/ava-i.jpg" alt="">
-                                    <span  href="#" class="foto-messeges-name">Панин Андрей</span>
+                                    <img  class="foto-friend-list" src="img/avatars/masha.jpg" alt="">
+                                    <span  href="#" class="foto-messeges-name">Панина Мария</span>
                                 </a>
                             </div>
                             <div>
@@ -70,8 +70,8 @@
                         <div class="friends-list-gr">
                             <div class="col-md-8">
                                 <a href="">
-                                    <img  class="foto-friend-list" src="img/avatars/ava-i.jpg" alt="">
-                                    <span  href="#" class="foto-messeges-name">Панин Андрей</span>
+                                    <img  class="foto-friend-list" src="img/avatars/roma.jpg" alt="">
+                                    <span  href="#" class="foto-messeges-name">Денискин Роман</span>
                                 </a>
                             </div>
                             <div>

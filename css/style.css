@@ -224,6 +224,9 @@ div.info1 {
     border-radius: 8px;
     margin-top: 10px;
 }
+.mess-new{
+    padding-left: 25px;
+}
 .mess-post{
     padding: 10px;
     background: #ffffff;

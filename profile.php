@@ -34,15 +34,15 @@
                                         </div>
                                 </li>
                                 <li>
-                                        <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                                        <a href="#"><img class="foto_friends" src="img/avatars/masha.jpg" alt=""></a>
                                         <div>
-                                            <a href="#">друг</a>
+                                            <a href="#">Мария</a>
                                         </div>
                                 </li>
                                 <li>
-                                        <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
+                                        <a href="#"><img class="foto_friends" src="img/avatars/roma.jpg" alt=""></a>
                                         <div>
-                                            <a href="#">друг</a>
+                                            <a href="#">Роман</a>
                                         </div>
                                 </li>
 

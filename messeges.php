@@ -38,17 +38,19 @@
             <div>
                 <div class="mess-post">
                     <a href="">
-                        <img  class="foto-messeges" src="img/avatars/ava-i.jpg" alt="">
-                        <span  href="#" class="foto-messeges-name">Панин Андрей</span>
+                        <img  class="foto-messeges" src="img/avatars/masha.jpg" alt="">
+                        <span  href="#" class="foto-messeges-name">Панина Мария</span>
                     </a>
+                    <span class="mess-new">4 сообщение</span>
                 </div>
             </div>
             <div>
                 <div class="mess-post">
                     <a href="">
-                        <img  class="foto-messeges" src="img/avatars/ava-i.jpg" alt="">
-                        <span  href="#" class="foto-messeges-name">Панин Андрей</span>
+                        <img  class="foto-messeges" src="img/avatars/roma.jpg" alt="">
+                        <span  href="#" class="foto-messeges-name">Денискин Роман</span>
                     </a>
+                    <span class="mess-new">1 сообщение</span>
                 </div>
             </div>
             <div>
