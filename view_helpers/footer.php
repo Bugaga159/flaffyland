@@ -15,8 +15,7 @@ echo
                 <a class="footer_link" href="#">Поддержка</a>
             </div>
         </footer>
-        <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="jquery.fancybox.min.js"></script>
+        
         <!-- jQuery (necessary for Bootstrap\'s JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
