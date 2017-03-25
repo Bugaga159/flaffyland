@@ -1,8 +1,10 @@
 <?php
     $btn_head = 'exit_head_btn';
+    //require_once"scripts/creat_user.php"
 
 	require_once "view_helpers/header.php";
-
+   /* $first_name = 'Андрей';
+    $last_name = 'Панин';*/
 	?>
 
 		<section class="container content">
@@ -88,7 +90,7 @@
                             <a href="#"">Статус</a>
                             <a href="">Онлайн</a>
                         </div>
-                        <div><a href="#">Панин Андрей</a></div>
+                        <div><a href="#"><?php echo $last_name. " ". $first_name ?></a></div>
                         <div>
                             <a>Город: </a><a>Серпухов</a>
 

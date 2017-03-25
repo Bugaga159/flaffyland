@@ -13,6 +13,6 @@ $last_name = $_REQUEST['last_name'];
 $email = $_REQUEST['email'];
 $password = $_REQUEST['password'];
 
-$insert_sql = "INSERT INTO `users` (`first-name`, `last-name`, `email`, `password`) VALUES ('{$first_name}', '{$last_name}', '{$email}','{$password}')";
+$insert_sql = "INSERT INTO `users` (`first_name`, `last_name`, `email`, `password`) VALUES ('{$first_name}', '{$last_name}', '{$email}','{$password}')";
 $result = mysqli_query($link, $insert_sql) or die(mysql_error());
 
