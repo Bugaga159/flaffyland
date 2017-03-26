@@ -1,6 +1,21 @@
 <?php
     $btn_head = 'exit_head_btn';
-    //require_once"scripts/creat_user.php"
+
+    require_once "scripts/connect_mysql.php";
+    $user_id = $_REQUEST['user_id'];
+    $select_query = "SELECT * FROM `users` WHERE  `user_id` = " . $user_id;
+    $result = mysqli_query($link, $select_query);
+    if($result){
+        $row =mysqli_fetch_array($result);
+        $first_name = $row['first_name'];
+        $last_name = $row['last_name'];
+        $email = $row['email'];
+    } else{
+        die("Ошибка обнаружения пользователя с ID {$user_id}");
+    }
+
+
+
 
 	require_once "view_helpers/header.php";
    /* $first_name = 'Андрей';
@@ -32,19 +47,19 @@
                                 <li>
                                         <a href="profile.php"><img class="foto_friends" src="img/avatars/ava-i.jpg" alt=""></a>
                                         <div>
-                                            <a href="profile.php">Андрей</a>
+                                            <a href="profile.php"><?php echo $first_name; ?></a>
                                         </div>
                                 </li>
                                 <li>
                                         <a href="#"><img class="foto_friends" src="img/avatars/masha.jpg" alt=""></a>
                                         <div>
-                                            <a href="#">Мария</a>
+                                            <a href="#"><?php echo $first_name; ?></a>
                                         </div>
                                 </li>
                                 <li>
                                         <a href="#"><img class="foto_friends" src="img/avatars/roma.jpg" alt=""></a>
                                         <div>
-                                            <a href="#">Роман</a>
+                                            <a href="#"><?php echo $first_name; ?></a>
                                         </div>
                                 </li>
 
@@ -55,19 +70,19 @@
                                 <li>
                                         <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
                                         <div>
-                                            <a href="#">друг</a>
+                                            <a href="#"><?php echo $first_name; ?></a>
                                         </div>
                                 </li>
                                 <li>
                                         <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
                                         <div>
-                                            <a href="#">друг</a>
+                                            <a href="#"><?php echo $first_name; ?></a>
                                         </div>
                                 </li>
                                 <li>
                                         <a href="#"><img class="foto_friends" src="img/avatars/no_avatar.gif" alt=""></a>
                                         <div>
-                                            <a href="#">друг</a>
+                                            <a href="#"><?php echo $first_name; ?></a>
                                         </div>
                                 </li>
 
@@ -90,7 +105,7 @@
                             <a href="#"">Статус</a>
                             <a href="">Онлайн</a>
                         </div>
-                        <div><a href="#"><?php echo $last_name. " ". $first_name ?></a></div>
+                        <div><a href="#"><?php echo $last_name. " ". $first_name; ?></a></div>
                         <div>
                             <a>Город: </a><a>Серпухов</a>
 
@@ -133,7 +148,7 @@
                             <div class=""><a href=""><img  class="img-circle post_image_well" src="img/avatars/ava-i.jpg" alt=""/></a></div>
                             <div>
                                 <div>
-                                    <a href="" class="post_author">Панин Андрей</a>
+                                    <a href="" class="post_author"><?php echo $last_name . ' '. $first_name; ?></a>
                                 </div>
                                 <div>
                                     <a href="" class="post_data">17 марта 2017</a>
@@ -170,7 +185,7 @@
                             <div class=""><a href=""><img  class="img-circle post_image_well" src="img/avatars/ava-i.jpg" alt=""/></a></div>
                             <div>
                                 <div>
-                                    <a href="" class="post_author">Панин Андрей</a>
+                                    <a href="" class="post_author"><?php echo $last_name . ' '. $first_name; ?></a>
                                 </div>
                                 <div>
                                     <a href="" class="post_data">17 марта 2017</a>
@@ -206,7 +221,7 @@
                                 <div class=""><a href=""><img  class="img-circle post_image_well" src="img/avatars/ava-i.jpg" alt=""/></a></div>
                                 <div>
                                     <div>
-                                        <a href="" class="post_author">Панин Андрей</a>
+                                        <a href="" class="post_author"><?php echo $last_name . ' '. $first_name; ?></a>
                                     </div>
                                     <div>
                                         <a href="" class="post_data">17 марта 2017</a>

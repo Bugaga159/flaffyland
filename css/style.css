@@ -37,11 +37,10 @@ body {
 	width: 100%;
 	background: #3990dc;
 }
-div.info1 {
+.info1 {
     background-color: #ffffff;
     border-radius: 10px;
-    height: 100%;
-    width: 100%;
+
 }
 .info1 >div{
     margin-top: 10px;
@@ -78,8 +77,8 @@ div.info1 {
 }
 
 .my-foto{
-    height: 140px;
-    width: 140px;
+    height: 115px;
+    width: 115px;
 
 }
 .nav_btn{
