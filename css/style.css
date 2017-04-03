@@ -75,7 +75,10 @@ body {
 .well-my-foto-in{
     margin: 5px;
 }
-
+.error{
+    float:right;
+    margin: 7px 0 7px 7px;
+}
 .my-foto{
     height: 115px;
     width: 115px;
