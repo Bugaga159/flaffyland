@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08015721-45fd-4745-8489-1fd768943ee5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile_error.php" afterPath="$PROJECT_DIR$/profile_error.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/connect_mysql.php" afterPath="$PROJECT_DIR$/scripts/connect_mysql.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/creat_user.php" afterPath="$PROJECT_DIR$/scripts/creat_user.php" />
     </list>
     <ignored path="flaffyland.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,7 +70,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="profile_error.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="profile_error.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/profile_error.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="357">
@@ -89,24 +88,32 @@
           <file leaf-file-name="creat_user.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/creat_user.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                <state relative-caret-position="34">
+                  <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
                   <folding>
-                    <marker date="1491251521533" expanded="true" signature="274:396" ph="INSERT INTO `users`... " />
-                    <marker date="1491251521533" expanded="true" signature="274:409" ph="INSERT INTO `users`... " />
+                    <marker date="1491862800336" expanded="true" signature="276:398" ph="INSERT INTO `users`... " />
+                    <marker date="1491862800336" expanded="true" signature="276:411" ph="INSERT INTO `users`... " />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="connect_mysql.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="connect_mysql.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scripts/connect_mysql.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#6#88#0#PHP" expanded="true" />
-                  </folding>
+                <state relative-caret-position="240">
+                  <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app_config.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scripts/app_config.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -179,10 +186,10 @@
         <option value="$PROJECT_DIR$/friends.php" />
         <option value="$PROJECT_DIR$/messeges.php" />
         <option value="$PROJECT_DIR$/profile.php" />
-        <option value="$PROJECT_DIR$/scripts/creat_user.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/scripts/connect_mysql.php" />
         <option value="$PROJECT_DIR$/profile_error.php" />
+        <option value="$PROJECT_DIR$/scripts/creat_user.php" />
+        <option value="$PROJECT_DIR$/scripts/connect_mysql.php" />
       </list>
     </option>
   </component>
@@ -356,7 +363,7 @@
       <workItem from="1489849960335" duration="2396000" />
       <workItem from="1490386348937" duration="28628000" />
       <workItem from="1491249558654" duration="5490000" />
-      <workItem from="1491764121188" duration="5409000" />
+      <workItem from="1491764121188" duration="7105000" />
     </task>
     <task id="LOCAL-00001" summary="php">
       <created>1489741802400</created>
@@ -383,7 +390,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43025000" />
+    <option name="totallyTimeSpent" value="44721000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,8 +510,8 @@
         <state relative-caret-position="357">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1491251521533" expanded="true" signature="274:396" ph="INSERT INTO `users`... " />
-            <marker date="1491251521533" expanded="true" signature="274:409" ph="INSERT INTO `users`... " />
+            <marker date="1491862800336" expanded="true" signature="276:398" ph="INSERT INTO `users`... " />
+            <marker date="1491862800336" expanded="true" signature="276:411" ph="INSERT INTO `users`... " />
           </folding>
         </state>
       </provider>
@@ -513,9 +520,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -559,8 +564,8 @@
         <state relative-caret-position="272">
           <caret line="16" column="65" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="65" />
           <folding>
-            <marker date="1491251521533" expanded="true" signature="274:396" ph="INSERT INTO `users`... " />
-            <marker date="1491251521533" expanded="true" signature="274:409" ph="INSERT INTO `users`... " />
+            <marker date="1491862800336" expanded="true" signature="276:398" ph="INSERT INTO `users`... " />
+            <marker date="1491862800336" expanded="true" signature="276:411" ph="INSERT INTO `users`... " />
           </folding>
         </state>
       </provider>
@@ -569,9 +574,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -919,17 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/creat_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1491251521533" expanded="true" signature="274:396" ph="INSERT INTO `users`... " />
-            <marker date="1491251521533" expanded="true" signature="274:409" ph="INSERT INTO `users`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/mysqli.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1530">
@@ -938,21 +930,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/app_config.php">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="279">
+          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/connect_mysql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="22" lean-forward="false" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -975,6 +957,14 @@
             <marker date="1490441223973" expanded="true" signature="1868:2030" ph="..." />
             <marker date="1490441223973" expanded="true" signature="2124:2285" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/app_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,10 +992,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/scripts/creat_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+        <state relative-caret-position="34">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <marker date="1491862800336" expanded="true" signature="276:398" ph="INSERT INTO `users`... " />
+            <marker date="1491862800336" expanded="true" signature="276:411" ph="INSERT INTO `users`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/connect_mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>

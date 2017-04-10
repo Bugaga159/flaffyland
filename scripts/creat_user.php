@@ -1,6 +1,6 @@
 <?php
 
-require_once "connect_mysql.php";
+//require_once "connect_mysql.php";
 
 
 ini_set("display_errors",1);
