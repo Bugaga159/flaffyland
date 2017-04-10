@@ -5,17 +5,24 @@
  * Date: 03.04.2017
  * Time: 23:57
  */
-
-
     $btn_head = 'exit_head_btn';
 
+    require_once "view_helpers/header.php";
+    require_once "scripts/connect_mysql.php";
 
     if(isset($_REQUEST['error_message'])){
         $error_message = preg_replace("/\\\\/", '', $_REQUEST['error_message']);
     }else{
         $error_message = 'вы здесь оказались из-за сбоя в работе программы.';
     }
-    require_once "view_helpers/header.php";
+
+    if(isset($_REQUEST['system_error_message'])){
+        $system_error_message = preg_replace ("/\\\\/", '', $_REQUEST['system_error_message']);
+    }else{
+        $system_error_message = "Сообщения о системных ошибках отсутствуют.";
+    }
+
+
 
 ?>
 
@@ -30,6 +37,11 @@
                 вас что-нибудь беспокоит в сложившейся ситуации, пришлите нам <a href="#">сообщение</a>
                 , и мы неприменно откликнемся.
             </p>
+            <?php
+                debug_print("<hr />");
+                debug_print("<p>Было получено следующее сообщение об ошибке системного уровня: 
+                <b>{$system_error_message}</b></p>");
+            ?>
         </div>
 
 

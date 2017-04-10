@@ -5,6 +5,9 @@
  * Date: 10.01.2017
  * Time: 21:58
  */
+//Установка режима отладки
+define("DEBUG_MODE", true);
+
 //Костанты подключения к БД
 define ("DATABASE_HOST", "127.0.0.1");
 define ("DATABASE_USERNAME", "root");
@@ -24,3 +27,8 @@ if (!$link) {
 echo "Вы подключились к MySQL " .  DATABASE_NAME;
 echo '</br>';
 echo "Host information: " . mysqli_get_host_info($link) . PHP_EOL;*/
+function debug_print($massage){
+    if (DEBUG_MODE){
+        echo $massage;
+    }
+}
