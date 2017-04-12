@@ -36,7 +36,8 @@
                 <a data-fancybox="gallery" href="img/pets_avatar/1.jpg"><img src="img/pets_avatar/1.jpg"></a>
                 <a data-fancybox="gallery" href="img/pets_avatar/2.jpg"><img src="img/pets_avatar/2.jpg"></a>
                 <a data-fancybox="gallery" href="img/pets_avatar/3.jpg"><img src="img/pets_avatar/3.jpg"></a>
-                
+                <a data-fancybox="gallery" href="img/pets_avatar/3.jpg"><img src="img/pets_avatar/3.jpg"></a>
+                <a data-fancybox="gallery" href="img/pets_avatar/2.jpg"><img src="img/pets_avatar/2.jpg"></a>
 
             </div>
 
