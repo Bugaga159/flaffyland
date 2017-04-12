@@ -6,7 +6,7 @@
  * Time: 23:57
  */
     $btn_head = 'exit_head_btn';
-require 'scripts/connect_mysql.php'
+require 'scripts/connect_mysql.php';
 
 
     if(isset($_REQUEST['error_message'])){

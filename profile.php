@@ -140,7 +140,10 @@
                             <li><a href="#">Мои записи</a></li>
                             <li><a href="#">Записи групп</a></li>
                             <li></li>
-                            <li class="pull-right"><a href="#"><div class="menu_icon glyphicon glyphicon-search"></div><a class="nav-well" href="#">Поиск</a></a></li>
+                            <li class="pull-right">
+
+                                <a href="#"><div class="menu_icon glyphicon glyphicon-search"></div>
+                                    <a class="nav-well" href="#">Поиск</a></a></li>
                         </ul>
                     </div>
                     <div class="bas-well">
