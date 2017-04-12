@@ -282,6 +282,10 @@ body {
     background-size: cover;
 
 }
+.new_s{
+    color: #2b669a;
+    text-align: center;
+}
 
 .foto_friends{
     width: 45px;
@@ -294,7 +298,12 @@ body {
 }
 .img_profile_all{
     max-width: 200px ;
-    
+
+}
+.news_profile{
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
 }
 footer {
   position: absolute;
