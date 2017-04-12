@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08015721-45fd-4745-8489-1fd768943ee5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/changes_profile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news_profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/friends.php" afterPath="$PROJECT_DIR$/friends.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_user.php" afterPath="$PROJECT_DIR$/image_user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messeges.php" afterPath="$PROJECT_DIR$/messeges.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/changes_profile.php" afterPath="$PROJECT_DIR$/changes_profile.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile.php" afterPath="$PROJECT_DIR$/profile.php" />
     </list>
     <ignored path="flaffyland.iws" />
@@ -39,11 +33,24 @@
     <splitter split-orientation="horizontal" split-proportion="0.6804365">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="changes_profile.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="profile.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/profile.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+                  <folding>
+                    <marker date="1492021500960" expanded="true" signature="145:185" ph="SELECT * FRO... " />
+                    <marker date="1492021500960" expanded="true" signature="145:186" ph="SELECT * FRO... users" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="changes_profile.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/changes_profile.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="393">
-                  <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+                <state relative-caret-position="444">
+                  <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
                   <folding>
                     <element signature="e#6#88#0#PHP" expanded="true" />
                   </folding>
@@ -51,24 +58,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="messeges.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/messeges.php">
+          <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/register.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="19" column="71" lean-forward="false" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+                <state relative-caret-position="476">
+                  <caret line="28" column="71" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="28" selection-end-column="71" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="news_profile.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/news_profile.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="87">
-                  <caret line="24" column="67" lean-forward="false" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
-                  <folding>
-                    <element signature="e#6#88#0#PHP" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -127,12 +122,12 @@
         <option value="$PROJECT_DIR$/view_helpers/header.php" />
         <option value="$PROJECT_DIR$/view_helpers/footer.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/profile.php" />
         <option value="$PROJECT_DIR$/image_user.php" />
         <option value="$PROJECT_DIR$/friends.php" />
         <option value="$PROJECT_DIR$/messeges.php" />
         <option value="$PROJECT_DIR$/news_profile.php" />
         <option value="$PROJECT_DIR$/changes_profile.php" />
+        <option value="$PROJECT_DIR$/profile.php" />
       </list>
     </option>
   </component>
@@ -345,7 +340,7 @@
       <workItem from="1490386348937" duration="28628000" />
       <workItem from="1491249558654" duration="5490000" />
       <workItem from="1491764121188" duration="17511000" />
-      <workItem from="1491933752302" duration="6445000" />
+      <workItem from="1491933752302" duration="7239000" />
     </task>
     <task id="LOCAL-00001" summary="php">
       <created>1489741802400</created>
@@ -372,7 +367,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61572000" />
+    <option name="totallyTimeSpent" value="62366000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,8 +482,8 @@
         <state relative-caret-position="2805">
           <caret line="165" column="96" lean-forward="false" selection-start-line="165" selection-start-column="96" selection-end-line="165" selection-end-column="96" />
           <folding>
-            <marker date="1492020618678" expanded="true" signature="144:184" ph="SELECT * FRO... " />
-            <marker date="1492020618678" expanded="true" signature="144:185" ph="SELECT * FRO... users" />
+            <marker date="1492021500960" expanded="true" signature="145:185" ph="SELECT * FRO... " />
+            <marker date="1492021500960" expanded="true" signature="145:186" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -528,8 +523,8 @@
         <state relative-caret-position="2805">
           <caret line="165" column="96" lean-forward="false" selection-start-line="165" selection-start-column="96" selection-end-line="165" selection-end-column="96" />
           <folding>
-            <marker date="1492020618678" expanded="true" signature="144:184" ph="SELECT * FRO... " />
-            <marker date="1492020618678" expanded="true" signature="144:185" ph="SELECT * FRO... users" />
+            <marker date="1492021500960" expanded="true" signature="145:185" ph="SELECT * FRO... " />
+            <marker date="1492021500960" expanded="true" signature="145:186" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -584,8 +579,8 @@
         <state relative-caret-position="0">
           <caret line="80" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1492020618678" expanded="true" signature="144:184" ph="SELECT * FRO... " />
-            <marker date="1492020618678" expanded="true" signature="144:185" ph="SELECT * FRO... users" />
+            <marker date="1492021500960" expanded="true" signature="145:185" ph="SELECT * FRO... " />
+            <marker date="1492021500960" expanded="true" signature="145:186" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -689,14 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,14 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/messeges.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="71" lean-forward="false" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/news_profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -935,23 +914,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile.php">
+    <entry file="file://$PROJECT_DIR$/messeges.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="43" column="55" lean-forward="false" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
-          <folding>
-            <marker date="1492020618678" expanded="true" signature="144:184" ph="SELECT * FRO... " />
-            <marker date="1492020618678" expanded="true" signature="144:185" ph="SELECT * FRO... users" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="19" column="71" lean-forward="false" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="71" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="28" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/changes_profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="444">
+          <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <marker date="1492021500960" expanded="true" signature="145:185" ph="SELECT * FRO... " />
+            <marker date="1492021500960" expanded="true" signature="145:186" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>

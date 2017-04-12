@@ -1,6 +1,7 @@
 <?php
     $btn_head = 'exit_head_btn';
 
+
     require_once "scripts/connect_mysql.php";
     $user_id = $_REQUEST['user_id'];
     $select_query = "SELECT * FROM `users` WHERE  `user_id` = " . $user_id;
@@ -18,8 +19,7 @@
 
 
 	require_once "view_helpers/header.php";
-   /* $first_name = 'Андрей';
-    $last_name = 'Панин';*/
+
 	?>
 
 		<section class="container content">

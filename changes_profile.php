@@ -31,7 +31,35 @@ require_once "view_helpers/header.php";
     <!---------------------------------Изменение профиля---------------------------------------------->
 
     <div class="col-md-7">
-        
+        <form class="" action="" method="POST" role="form">
+            <a href="">Изменить данные профиля</a>
+            <div class="form-group">
+                <label for="first_name">Имя:</label>
+                <input type="text" name = "first_name" class="form-control first_name" placeholder="Введите Имя">
+                <label for="last_name">Фамилия:</label>
+                <input type="text" name="last_name" class="form-control last_name" placeholder="Введите Фамилию">
+            </div>
+
+            <div class="form-group email">
+                <label for="exampleInputEmail1 email">Email</label>
+                <input type="email" name ="email" class="form-control email" placeholder="Введите email">
+            </div>
+            <div class="form-group password">
+                <label for="exampleInputPassword1 password">Старый пароль</label>
+                <input type="password" name="password" class="form-control password" placeholder="Введите Пароль">
+            </div>
+            <div class="form-group password">
+                <label for="exampleInputPassword1 password">Новый пароль</label>
+                <input type="password" name="password" class="form-control password" placeholder="Введите Пароль">
+            </div>
+            <div class="form-group password">
+                <label for="exampleInputPassword1 password">Повторите пароль</label>
+                <input type="password" name="password" class="form-control password" placeholder="Введите Пароль">
+            </div>
+            <button type="submit" class="btn btn-success">Сохранить</button>
+            <button type="reset" class="btn btn-default">Сброс</button>
+
+        </form>
     </div>
 
 
