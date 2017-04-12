@@ -287,6 +287,10 @@ body {
     width: 45px;
     height: 45px;
 }
+.ImageGrid{
+    border-radius: 5px;
+    background: #ffffff;
+}
 footer {
   position: absolute;
   bottom: 0;

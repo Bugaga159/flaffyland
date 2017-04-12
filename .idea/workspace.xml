@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="08015721-45fd-4745-8489-1fd768943ee5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_user.php" afterPath="$PROJECT_DIR$/image_user.php" />
     </list>
     <ignored path="flaffyland.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,8 +48,8 @@
           <file leaf-file-name="image_user.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/image_user.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+                <state relative-caret-position="374">
+                  <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="33" />
                   <folding>
                     <element signature="e#6#88#0#PHP" expanded="true" />
                   </folding>
@@ -122,8 +121,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="250">
-                  <caret line="285" column="14" lean-forward="true" selection-start-line="285" selection-start-column="14" selection-end-line="285" selection-end-column="14" />
+                <state relative-caret-position="352">
+                  <caret line="291" column="23" lean-forward="false" selection-start-line="291" selection-start-column="23" selection-end-line="291" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -385,7 +384,7 @@
       <workItem from="1490386348937" duration="28628000" />
       <workItem from="1491249558654" duration="5490000" />
       <workItem from="1491764121188" duration="17511000" />
-      <workItem from="1491933752302" duration="5149000" />
+      <workItem from="1491933752302" duration="5203000" />
     </task>
     <task id="LOCAL-00001" summary="php">
       <created>1489741802400</created>
@@ -412,7 +411,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60276000" />
+    <option name="totallyTimeSpent" value="60330000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -977,21 +976,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="285" column="14" lean-forward="true" selection-start-line="285" selection-start-column="14" selection-end-line="285" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="33" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="291" column="23" lean-forward="false" selection-start-line="291" selection-start-column="23" selection-end-line="291" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
