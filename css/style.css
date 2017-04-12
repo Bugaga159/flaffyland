@@ -163,6 +163,8 @@ body {
 .user_menu li {
 	list-style-type: none;
 	width: 100%;
+    background: #ffffff;
+    padding: 1px;
 }
 
 .user_menu_text {
@@ -279,6 +281,11 @@ body {
     border: 3px solid #fff;
     background-size: cover;
 
+}
+.image_user {
+    width: 300px;
+
+    text-align: center;
 }
 .foto_friends{
     width: 45px;
