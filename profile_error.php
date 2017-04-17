@@ -6,11 +6,11 @@
  * Time: 23:57
  */
     $btn_head = 'exit_head_btn';
-require 'scripts/connect_mysql.php';
+ require 'scripts/connect_mysql.php';
 
 
     if(isset($_REQUEST['error_message'])){
-        $error_message = preg_replace("/\\\\/", '', $_REQUEST['error_message']);
+        $error_message = $_REQUEST['error_message'];
     }else{
         $error_message = 'вы здесь оказались из-за сбоя в работе программы.';
     }

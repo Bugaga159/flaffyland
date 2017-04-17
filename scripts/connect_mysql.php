@@ -12,40 +12,42 @@ function debug_print($massage)
         echo $massage;
     }
 }
-define("DEBUG_MODE", true);
+define("DEBUG_MODE", false);
 //Костанты подключения к БД
 define ("DATABASE_HOST", "127.0.0.1");
 define ("DATABASE_USERNAME", "root");
 define ("DATABASE_PASSWORD", "");
 define ("DATABASE_NAME", "animal_db");
 
+function handle_error($user_error_message, $system_error_message)
+{
+    header("Location: profile_error.php?error_message={$user_error_message}&system_error_message={$system_error_message}");
+    exit();}
 
 
 
 
 $link = mysqli_connect(DATABASE_HOST, DATABASE_USERNAME, DATABASE_PASSWORD,DATABASE_NAME);
 
-
-
 if (!$link) {
     $user_error_message = "возникла проблема, связанная с подключением " .
         "к базе данных, содержащей нужную информацию.";
     $system_error_message = mysqli_error($link);
     header("Location: profile_error.php?error_message={$user_error_message}&system_error_message={$system_error_message}");
-
+    exit();
+}
+    /*
    echo "Error: Unable to connect to MySQL." . PHP_EOL;
 echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
     echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
+*/
 
-
-
+/*
     echo "Вы подключились к MySQL " .  DATABASE_NAME;
     echo '</br>';
     echo "Host information: " . mysqli_get_host_info($link) . PHP_EOL;
-    function handle_error($user_error_message, $system_error_message)
-    {
-        header("Location: profile_error.php?error_message={$user_error_message}&system_error_message={$system_error_message}");
-        exit();}
+
+*/
 
 
-}
+

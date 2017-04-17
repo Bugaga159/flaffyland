@@ -6,13 +6,30 @@
     $user_id = $_REQUEST['user_id'];
     $select_query = "SELECT * FROM `users` WHERE  `user_id` = " . $user_id;
     $result = mysqli_query($link, $select_query);
-    if($result){
+    if(!$result){
+        /*$row =mysqli_fetch_array($result);
+        $first_name = $row['first_name'];
+        $last_name = $row['last_name'];
+        $email = $row['email'];*/
+
+        $user_error_message = "возникла проблема, связанная с подключением " .
+            "к базе данных, содержащей нужную информацию.";
+        $system_error_message = mysqli_error($link);
+        header("Location: profile_error.php?error_message={$user_error_message}&system_error_message={$system_error_message}");
+    exit();
+
+
+    } else{
+        //die("Ошибка обнаружения пользователя с ID {$user_id}");
+       /* $user_error_message = "возникла проблема, связанная с подключением " .
+            "к базе данных, содержащей нужную информацию.";
+        $system_error_message = mysqli_error($link);
+        header("Location: profile_error.php?error_message={$user_error_message}&system_error_message={$system_error_message}");
+*/
         $row =mysqli_fetch_array($result);
         $first_name = $row['first_name'];
         $last_name = $row['last_name'];
         $email = $row['email'];
-    } else{
-        die("Ошибка обнаружения пользователя с ID {$user_id}");
     }
 
 
