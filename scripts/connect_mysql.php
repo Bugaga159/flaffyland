@@ -19,12 +19,6 @@ define ("DATABASE_USERNAME", "root");
 define ("DATABASE_PASSWORD", "");
 define ("DATABASE_NAME", "animal_db");
 
-function handle_error($user_error_message, $system_error_message)
-{
-    header("Location: profile_error.php?error_message={$user_error_message}&system_error_message={$system_error_message}");
-    exit();}
-
-
 
 
 $link = mysqli_connect(DATABASE_HOST, DATABASE_USERNAME, DATABASE_PASSWORD,DATABASE_NAME);
@@ -33,7 +27,7 @@ if (!$link) {
     $user_error_message = "возникла проблема, связанная с подключением " .
         "к базе данных, содержащей нужную информацию.";
     $system_error_message = mysqli_error($link);
-    header("Location: profile_error.php?error_message={$user_error_message}&system_error_message={$system_error_message}");
+    header("Location: ../profile_error.php?error_message=$user_error_message&system_error_message={$system_error_message}");
     exit();
 }
     /*
