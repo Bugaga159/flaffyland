@@ -1,5 +1,5 @@
 <?php
-
+/*
 require_once "connect_mysql.php";
 
 
@@ -18,4 +18,4 @@ $result = mysqli_query($link, $insert_sql) or die(mysqli_error());
 
 header("Location: /profile.php?user_id=" . mysqli_insert_id($link));
 exit();
-
+*/

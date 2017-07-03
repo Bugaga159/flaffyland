@@ -63,4 +63,5 @@ echo '
 				</div>
 			</header>
 		</section>
-';
+';  
+?>
