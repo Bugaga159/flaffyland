@@ -1,6 +1,6 @@
 <?php
 	$btn_head = 'login_head_btn';
-	require_once "view_helpers/header.php";
+	
 	require_once "scripts/connect_mysql.php";
 	
 	
@@ -45,13 +45,14 @@
 			$insert_sql = "INSERT INTO `users` (`login`,`first_name`, `last_name`, `email`, `password`) VALUES ('{$login}','{$first_name}', '{$last_name}', '{$email}','{$password}')";
 			$result = mysqli_query($link, $insert_sql) or die(mysqli_error());
 
-			header("Location: /profile.php?user_id=" . mysqli_insert_id($link));
+			header("Location: profile.php?user_id=" . mysqli_insert_id($link));
+
 			exit();
 		}else{
 			echo '<div style ="color: red; text-align: center;">' . array_shift($errors).'</div><hr>';
 		}
 	} 
-
+	require_once "view_helpers/header.php";
 ?>
 		
 		<section class="container registration_wrapper">
