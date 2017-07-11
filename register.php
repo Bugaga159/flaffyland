@@ -1,7 +1,7 @@
 <?php
 	$btn_head = 'login_head_btn';
 	
-	require_once "scripts/connect_mysql.php";
+	
 	
 	
 		$data = $_POST;
@@ -31,6 +31,8 @@
 		
 		// Проверка на отсутствие ошибок
 		if (empty($errors)) {
+
+			require_once "scripts/connect_mysql.php";
 			
 			/*ini_set("display_errors",1);
 			error_reporting(E_ALL);*/
@@ -48,14 +50,20 @@
 			header("Location: profile.php?user_id=" . mysqli_insert_id($link));
 
 			exit();
+			
+
 		}else{
-			echo '<div style ="color: red; text-align: center;">' . array_shift($errors).'</div><hr>';
+
+			$errors_all = '<div style ="color: red; text-align: center;">' . array_shift($errors).'</div><hr>';
 		}
-	} 
+	 
 	require_once "view_helpers/header.php";
 ?>
-		
+
 		<section class="container registration_wrapper">
+		<?php 
+				echo $errors_all;
+		 ?>
 		<form class="registration" action="/register.php" method="POST">
 			<div class="form-group first_name">
 				<label for="login">Логин:</label>
@@ -85,10 +93,6 @@
 			<button type="reset" class="btn btn-default" >Сброс</button>
 		</form>
 		</section>
-<?php
-
-            mysqli_close($link);
-
-	require_once "view_helpers/footer.php";
+<?php     
+	require_once ("view_helpers/footer.php");
 ?>
-	
