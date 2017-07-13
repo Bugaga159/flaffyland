@@ -1,4 +1,5 @@
 <?php
+	require_once "scripts/connect_mysql.php";
 	$btn_head = 'login_head_btn';
 	
 	
@@ -8,7 +9,7 @@
 	if(isset($data['do_signup'])){
 
 		// Проверка на ошибки в регистрации
-		$errors = array();
+		$errors = [];
 		if (trim($data['login']) == '') {
 			$errors[] = 'Введите Логин!';
 		}
@@ -31,8 +32,6 @@
 		
 		// Проверка на отсутствие ошибок
 		if (empty($errors)) {
-
-			require_once "scripts/connect_mysql.php";
 			
 			/*ini_set("display_errors",1);
 			error_reporting(E_ALL);*/
@@ -56,7 +55,7 @@
 
 			$errors_all = '<div style ="color: red; text-align: center;">' . array_shift($errors).'</div><hr>';
 		}
-	 
+	 }
 	require_once "view_helpers/header.php";
 ?>
 
@@ -83,11 +82,17 @@
 			</div>
 			<div class="form-group password">
 				<label for="exampleInputPassword1 password">Пароль</label>
-				<input type="password" name="password" class="form-control password" placeholder="Введите Пароль" value="<?php echo $data['password']; ?>">
+				
+				<?php
+				echo '<input type="password" name="password" class="form-control password" placeholder="Введите Пароль" value="' , $data['password'], '">';
+			?>
+
 			</div>
 			<div class="form-group password">
 				<label for="exampleInputPassword1 password">Повторите пароль</label>
-				<input type="password" name="password_2" class="form-control password" placeholder="Повторите пароль" value="<?php echo $data['password_2']; ?>">
+				<?php
+				echo '<input type="password" name="password_2" class="form-control password" placeholder="Повторите пароль" value="' , $data['password_2'], '">';
+				?>
 			</div>
 			<button type="submit" class="btn btn-success" name="do_signup">Зарегистрироваться</button>
 			<button type="reset" class="btn btn-default" >Сброс</button>
