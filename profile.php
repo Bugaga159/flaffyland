@@ -44,8 +44,12 @@
 			 <?php require_once "view_helpers/navig.php"; ?>
 
 			<div class="col-md-3 profile_photo">
+                    
+				<div class="ImageGrid">
+                
+                    <a data-fancybox="gallery" href="/img/avatars/ava-i.jpg"><img class="img-responsive" src="/img/avatars/ava-i.jpg" alt=""></a>
 
-					<img class="img-responsive" src="/img/avatars/ava-i.jpg" alt="">
+                </div>
 
                     <a class="btn btn-default systemBtn" href="#">Редактировать</a>
 
@@ -127,7 +131,25 @@
                     <div class="well-my-foto-in">
                         <a href="#"><h3>Мои фотографии</h3></a>
                         <div class="row">
+                       
+                    <!------------- фото из альбома------------------------>
+
+                        <div class="ImageGrid">
                             <div class="col-md-3">
+                                <a data-fancybox="gallery" href="img/pets_avatar/1.jpg"><img class="img-responsive" src="img/pets_avatar/1.jpg" alt=""></a>
+                            </div>
+                            <div class="col-md-3">
+                                <a data-fancybox="gallery" href="img/pets_avatar/2.jpg"><img class="img-responsive" src="img/pets_avatar/2.jpg" alt=""></a>
+                            </div>
+                            <div class="col-md-3">
+                                <a data-fancybox="gallery" href="img/pets_avatar/3.jpg"><img class="img-responsive" src="img/pets_avatar/3.jpg" alt=""></a>
+                            </div>
+                            <div class="col-md-3">
+                                <a data-fancybox="gallery" href="img/pets_avatar/1.jpg"><img class="img-responsive" src="img/pets_avatar/1.jpg" alt=""></a>
+                            </div>
+
+                        </div>
+                            <!-- <div class="col-md-3">
                                 <img src="img/pets_avatar/1.jpg" alt="..." class="img-rounded my-foto">
                             </div>
                             <div class="col-md-3">
@@ -139,7 +161,7 @@
                             <div class="col-md-3">
                                 <img src="img/pets_avatar/1.jpg" alt="..." class="img-rounded my-foto">
                             </div>
-                        </div>
+                        </div>-->
 
                     </div>
                 </div>
