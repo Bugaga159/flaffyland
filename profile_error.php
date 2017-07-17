@@ -38,6 +38,7 @@
             <?php
                echo "<p>Было получено следующее сообщение об ошибке системного уровня: <b>{$system_error_message}</b></p>";
             ?>
+            <div style="text-align: center;"><strong><a  href="/index.php">Главная станица</a></strong></div>
         </div>
 
 

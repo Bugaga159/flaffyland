@@ -6,6 +6,7 @@
 	
 	
 		$data = $_POST;
+		
 	if(isset($data['do_signup'])){
 
 		// Проверка на ошибки в регистрации
@@ -54,6 +55,7 @@
 		}else{
 
 			$errors_all = '<div style ="color: red; text-align: center;">' . array_shift($errors).'</div><hr>';
+
 		}
 	 }
 	require_once "view_helpers/header.php";
@@ -66,19 +68,27 @@
 		<form class="registration" action="/register.php" method="POST">
 			<div class="form-group first_name">
 				<label for="login">Логин:</label>
-				<input type="text" name = "login" class="form-control login" placeholder="Введите Логин" value="<?php echo $data['login']; ?>">
+				<?php
+				echo '<input type="text" name = "login" class="form-control login" placeholder="Введите Логин" value="',$data['login'],'">';
+				?>
 			</div>
 			<div class="form-group first_name">
 				<label for="first_name">Имя:</label>
-				<input type="text" name = "first_name" class="form-control first_name" placeholder="Введите Имя" value="<?php echo $data['first_name']; ?>">
+				<?php
+				echo '<input type="text" name = "first_name" class="form-control first_name" placeholder="Введите Имя" value="', $data['first_name'], '">';
+				?>
 			</div>
 			<div class="form-group last_name">
 				<label for="last_name">Фамилия:</label>
-				<input type="text" name="last_name" class="form-control last_name" placeholder="Введите Фамилию" value="<?php echo $data['last_name']; ?>">
+				<?php
+				echo '<input type="text" name="last_name" class="form-control last_name" placeholder="Введите Фамилию" value="', $data['last_name'], '">';
+				?>
 			</div>
 			<div class="form-group email">
 				<label for="exampleInputEmail1 email">Email</label>
-				<input type="email" name ="email" class="form-control email" placeholder="Введите email" value="<?php echo $data['email']; ?>">
+				<?php
+				echo '<input type="email" name ="email" class="form-control email" placeholder="Введите email" value="', $data['email'], '">';
+				?>	
 			</div>
 			<div class="form-group password">
 				<label for="exampleInputPassword1 password">Пароль</label>
@@ -95,7 +105,7 @@
 				?>
 			</div>
 			<button type="submit" class="btn btn-success" name="do_signup">Зарегистрироваться</button>
-			<button type="reset" class="btn btn-default" >Сброс</button>
+			<button type="reset" class="btn btn-default"  name="do_resert">Сброс</button>
 		</form>
 		</section>
 <?php     
