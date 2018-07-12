@@ -45,15 +45,15 @@ echo '
 
 
                             if ($btn_head == "reg_head_btn")
-                                echo '<a href="/register.php">
+                                echo '<a href="register.php">
                                          <button type="submit" class="btn btn-success reg_head_btn">Регистрация</button>
                                         </a>';
                             elseif ($btn_head == "login_head_btn")
-                                echo '<a href="/index.php">
+                                echo '<a href="index.php">
                                          <button type="submit" class="btn btn-success login_head_btn">Войти</button>
                                         </a>';
                             else
-                                echo'<a href="/index.php">
+                                echo'<a href="index.php">
                                          <button type="submit" class="btn btn-success exit_head_btn">Выход</button>
                                         </a>';
 

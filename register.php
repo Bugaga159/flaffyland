@@ -3,30 +3,27 @@
 	$btn_head = 'login_head_btn';
 	
 	
-	
-	
-		$data = $_POST;
 		
-	if(isset($data['do_signup'])){
+	if(isset($_POST['do_signup'])){
 
 		// Проверка на ошибки в регистрации
 		$errors = [];
-		if (trim($data['login']) == '') {
+		if (trim($_POST['login']) == '') {
 			$errors[] = 'Введите Логин!';
 		}
-		if (trim($data['first_name']) == '') {
+		if (trim($_POST['first_name']) == '') {
 			$errors[] = 'Введите Имя!';
 		}
-		if (trim($data['last_name']) == '') {
+		if (trim($_POST['last_name']) == '') {
 			$errors[] = 'Введите Фамилию!';
 		}
-		if (trim($data['email']) == '') {
+		if (trim($_POST['email']) == '') {
 			$errors[] = 'Введите Email!';
 		}
-		if ($data['password'] == '') {
+		if ($_POST['password'] == '') {
 			$errors[] = 'Введите Пароль!';
 		}
-		if ($data['password_2'] != $data['password'] ) {
+		if ($_POST['password_2'] != $_POST['password'] ) {
 			$errors[] = 'Повторно введенный пароль не верно!';
 		}
 		
@@ -38,16 +35,16 @@
 			error_reporting(E_ALL);*/
 
 		// Получение данных
-			$login = $data['login'];
-			$first_name = $data['first_name'];
-			$last_name = $data['last_name'];
-			$email = $data['email'];
-			$password = password_hash($data['password'],PASSWORD_DEFAULT);
+			$login = $_POST['login'];
+			$first_name = $_POST['first_name'];
+			$last_name = $_POST['last_name'];
+			$email = $_POST['email'];
+			$password = $_POST['password'];
 
-			$insert_sql = "INSERT INTO `users` (`login`,`first_name`, `last_name`, `email`, `password`) VALUES ('{$login}','{$first_name}', '{$last_name}', '{$email}','{$password}')";
-			$result = mysqli_query($link, $insert_sql) or die(mysqli_error());
+			$insert_sql = "INSERT INTO `users` ( `login`, `first_name`, `last_name`, `email`, `password`) VALUES ( '{$login}', '{$first_name}', '{$last_name}', '{$email}', '{$password}')";
+			$result = mysqli_query($link, $insert_sql ) or die(mysqli_errno());
 
-			header("Location: profile.php?user_id=" . mysqli_insert_id($link));
+			header('Location: profile.php?user_id=' . mysqli_insert_id($link));
 
 			exit();
 			
@@ -65,7 +62,7 @@
 		<?php 
 				echo $errors_all;
 		 ?>
-		<form class="registration" action="/register.php" method="POST">
+		<form class="registration" action="register.php" method="POST">
 			<div class="form-group first_name">
 				<label for="login">Логин:</label>
 				<?php

@@ -7,7 +7,7 @@
 			<div class="container">
 				<div class="row info">
 					<div class="col-md-3">
-						<form action="/scripts/authController.php" method="POST">
+						<form action="scripts/authController.php" method="POST">
 							<p class="systemFieldText">Электронный адрес:</p>
 							<input class="form-control email" type="text" name="login" placeholder="Введите E-mail"/>
 							<p class="systemFieldText">Пароль:</p>

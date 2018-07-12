@@ -1,6 +1,6 @@
 <?php
 
-	include_once "/connect_mysql.php";
+	include_once "connect_mysql.php";
 	
 	$login = $_POST['login'];
 	$password = $_POST['password'];
@@ -12,7 +12,7 @@
 
 	$data = mysqli_fetch_array($query_user);
 
-	#print_r($data);
+	print_r($data);
 
 	$password_hash = $data['password'];
 	

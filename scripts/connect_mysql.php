@@ -5,7 +5,7 @@
  * Date: 10.01.2017
  * Time: 21:58
  */
-require_once "/function.php";
+require_once "function.php";
 
 //Костанты подключения к БД
 define ("DATABASE_HOST", "127.0.0.1");
